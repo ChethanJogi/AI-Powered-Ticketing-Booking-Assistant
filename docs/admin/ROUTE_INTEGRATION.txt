@@ -1,0 +1,13 @@
+ADMIN ROUTE INTEGRATION
+
+The complete updated AppRoutes.jsx is included at:
+  src/routes/AppRoutes.jsx
+
+Important:
+- AdminRoute must wrap AdminLayout.
+- The admin route must be a sibling of the PageLayout route, not nested inside it.
+- The dashboard URL is /admin.
+- Unauthenticated users are redirected to /login.
+- Non-admin users are redirected to /events.
+
+Before replacing an existing AppRoutes.jsx, compare it with the recipient's latest file so newer routes are not lost.
