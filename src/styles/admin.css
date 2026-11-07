@@ -3,6 +3,8 @@
   display: flex;
   color: #211d3a;
   background: #f6f5fb;
+  position: relative;
+  z-index: 1;
 }
 
 .admin-sidebar {
